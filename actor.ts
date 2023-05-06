@@ -4,5 +4,5 @@ export interface Actor {
     Name: string;
     Popularity: number;
     AverageRating: number;
-    known_for: any;   //its their movie
+    known_for: string[];   //its their movie
 }

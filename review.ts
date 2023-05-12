@@ -1,5 +1,4 @@
-export interface review{
-    ID:string;
+export interface Review{
     email:string;
     api_Id:string;
     ratting:number;

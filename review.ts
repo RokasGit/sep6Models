@@ -1,6 +1,6 @@
 export interface Review{
-    user_id:string;
-    api_Id:string;
+    userId:number;
+    movieId:string;
     ratting:number;
     comment:string;
     date:Date;

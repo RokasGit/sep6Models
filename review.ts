@@ -1,5 +1,5 @@
 export interface Review{
-    email:string;
+    user_id:string;
     api_Id:string;
     ratting:number;
     comment:string;

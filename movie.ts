@@ -1,6 +1,6 @@
 export interface Movie {
   // can add more properties here
-  ID: string;
+  imdbID: string;
   Title: string;
   Actors: string;
   Country: string;

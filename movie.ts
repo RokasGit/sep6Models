@@ -8,6 +8,7 @@ export interface Movie {
   Plot?: string;
   Poster: string;
   BelongsToToplist?: boolean;
+  BelongsToWatchlist?: boolean;
   imdbRating?: string;
   imdbVotes?: string;
   Director?: string;

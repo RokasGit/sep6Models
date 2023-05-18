@@ -1,4 +1,3 @@
-
 export interface Movie {
   // can add more properties here
   imdbID: string;

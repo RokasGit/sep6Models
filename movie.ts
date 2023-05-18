@@ -1,3 +1,4 @@
+
 export interface Movie {
   // can add more properties here
   imdbID: string;
@@ -9,6 +10,7 @@ export interface Movie {
   Poster: string;
   BelongsToToplist?: boolean;
   BelongsToWatchlist?: boolean;
+  reviewed? : boolean;
   imdbRating?: string;
   imdbVotes?: string;
   Director?: string;
